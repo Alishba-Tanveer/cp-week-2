@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #6a3afa 10%,
+    #6594f8 35%,
+    #fdb2e0 100%
+  );
+
+  background-attachment: fixed;
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
